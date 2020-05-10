@@ -1,0 +1,60 @@
+h1{
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+h2{
+  color: #006600;
+  text-align: center;
+  font-style: oblique;
+}
+h3{
+  color: Green;
+  font-weight: bold;
+}
+
+#header{
+  color: #99cc00;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+@media (min-width: 499px)
+{
+  body {
+    background-color: #b3ffff;
+      }
+}
+
+@media (max-width: 500px)
+{
+  body {
+  background-color: #00e6e6;
+      }
+}
+
+.btn-group button {
+  background-color: #4CAF50;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
